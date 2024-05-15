@@ -1,15 +1,12 @@
-# Balatro ProperRussian (by Nitablade)
-EN:
+# Balasclo, A forked project from Balatro ProperRussian by Nitablade.
 
-This is my own Russian localization for Balatro (game version 1.0.1f-FULL)
+Balasclo (**Bala**tro **S**implified **C**hinese **L**ocalization **O**verhaul) is a [Lovely](https://github.com/ethangreen-dev/lovely-injector)-based gathering of personal ideas of overhauling translated texts in the video game Balatro, containing various fixes, improvements, glossary unification, in conjunction with planned texture and font overwrite for a better game experience. 
 
-RU:
-## Краткое описание:
-Это моя авторская локализация на русский язык для Balatro (релиз 1.0.1f-FULL)
+This repository is a fork of [Nitablade's Balatro ProperRussian](https://github.com/Nitablade/Balatro_ProperRussian).
 
-Для полноценной работы (корректный шрифт, патчи хардкод строк) вам нужна приобретённая копия игры в Steam.
-
-Мод никак не влияет на получение достижений.
+## 简要说明：
+本项目当前适用于 Balatro 1.0.1f-FULL
+请确保你已在 [**Lovely** 的发布页](https://github.com/ethangreen-dev/lovely-injector/releases)获取了最新的`version.dll`并存放于游戏的安装路径中（与游戏主程序`Balatro.exe`处于同一路径下）
 
 ## Зачем, если русский язык уже есть в игре?
 
