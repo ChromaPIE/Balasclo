@@ -8,17 +8,27 @@ This repository is a fork of [Nitablade's Balatro ProperRussian](https://github.
 本项目当前适用于 Balatro 1.0.1f-FULL
 请确保你已在 [**Lovely** 的发布页](https://github.com/ethangreen-dev/lovely-injector/releases)获取了最新的`version.dll`并存放于游戏的安装路径中（与游戏主程序`Balatro.exe`处于同一路径下）
 
-## Зачем, если русский язык уже есть в игре?
+## 为什么会有这个项目？
 
-Официальный перевод оставляет желать много лучшего, а также содержит много ошибок и неточностей. Основные отличия моей локализации:
+不知道是不是发行商被人坑了，Balatro 的官方翻译像是由五六个 CET6 勉强及格的半瓶晃荡攒出来的“工作室”做的。他们遇到生词可能会去百度查翻译，也从始至终没有一个统一的术语库，甚至未见得在翻译过程中打开游戏看过一两眼。
 
-- Единый стиль написания, везде где это возможно
-- Добавлены русифицированные текстуры для всех Джокеров, купонов, карт планет, карт Таро, Спектральных карт, бустерных наборов и прочего
-- Вручную добавлена локализация для строк, изначально не поддерживающих перевод
-- Исправления некорректных кейвордов по типу "Получает", "Даёт" и т.д.
-- Использование буквы "**ё**" в строках
-- Дополнительная неочевидная информация в описании некоторых карт, имеющаяся только на офф. Вики игры
-- Локализация не следует точь-в-точь написанию в английской версии, а призвана быть максимально простой и хорошо читаемой
+Balasclo 是一个个人色彩相对浓烈的本地化重置项目，大体包含对游戏原有本地化的修改和完善。大致包括：
+
+- （占位）
+
+此外，我也在为部分自己游玩的 Steamodded 模组制作简体中文本地化。这些模组的本地化使用了和 Balasclo 同样的术语库：
+
+- [betmma/my_balatro_mods](https://github.com/ChromaPIE/betmma-mods-ZHCN-Locale) [原仓库](https://github.com/betmma/my_balatro_mods)
+- [Firch/Bunco](https://github.com/ChromaPIE/Bunco-ZHCN-Locale) [原仓库](https://github.com/Firch/Bunco)
+- [Aurelius7309/SixSuits](https://github.com/ChromaPIE/SixSuits-ZHCN-Locale) [原仓库](https://github.com/Aurelius7309/SixSuits)
+- [notmario/MoreFluff](https://github.com/ChromaPIE/MoreFluff-ZHCN-Locale) [原仓库](https://github.com/notmario/MoreFluff)
+- [itayfeder/Codex-Arcanum](https://github.com/ChromaPIE/Codex-Arcanum-ZHCN-Locale) [原仓库](https://github.com/itayfeder/Codex-Arcanum)
+- []() [原仓库]()
+- []() [原仓库]()
+
+Balasclo 不会，也不计划加入未来可能的任何 Balatro 整合汉化项目。
+
+---
 
 В моде также заменён шрифт на доработанный **Mini Pixel 7**, не стремясь повторить оригинальный, но пиксельный, хорошо читабельный и вписывающийся в сеттинг. Альтернативный шрифт, копирующий англоязычный **m6x11plus** лежит в папке ```/extra```.
 
