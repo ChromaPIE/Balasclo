@@ -1083,7 +1083,7 @@ return {
                 }
             },
             j_bootstraps = {
-                name = "提靴带",
+                name = "步步高升",
                 text = {
                     "每拥有{C:money}$#2#{}",
                     "{C:mult}+#1#{}倍率",
@@ -1135,7 +1135,7 @@ return {
                     "限制条件消失"
                 },
                 unlock = {
-                    "{E:1,s:1.3}?????"
+                    "{E:1,s:1.3}？？？"
                 }
             },
             j_perkeo = {
@@ -3525,11 +3525,11 @@ return {
             b_imagery = "图像",
             b_new_run = "新一局",
             b_challenges = "挑战",
-            b_current_profile = "当前配置",
-            b_load_profile = "加载配置",
-            b_create_profile = "创建配置",
-            b_delete_profile = "删除配置",
-            b_reset_profile = "重设配置",
+            b_current_profile = "当前存档",
+            b_load_profile = "加载存档",
+            b_create_profile = "新建存档",
+            b_delete_profile = "删除存档",
+            b_reset_profile = "重置存档",
             b_rules = "规则",
             b_restrictions = "限制条件",
             b_deck = "牌组",
@@ -3593,7 +3593,7 @@ return {
             k_unlocked_ex = "已解锁！",
             k_challenge_mode = "挑战模式",
             k_daily_run = "每日挑战",
-            k_profile = "配置",
+            k_profile = "存档",
             k_wins = "获胜数",
             k_empty_caps = "空",
             k_collection = "收藏",
@@ -3639,7 +3639,7 @@ return {
             ph_click_confirm = "再次点击确认",
             ph_choose_blind_1 = "选择你的",
             ph_choose_blind_2 = "下一个盲注",
-            ph_mr_bones = "被骷髅先生救了",
+            ph_mr_bones = "骷髅先生救了你一命",
             ph_score_at_least = "至少得分",
             ph_all_poker_hand = "所有牌型",
             ph_1_level = "+1级",
@@ -3703,7 +3703,7 @@ return {
                 "发现均被禁用"
             },
             ['$'] = "$",
-            k_redeemed_ex = "兑换！",
+            k_redeemed_ex = "已入手！",
             k_duplicated_ex = "复制！",
             k_no_room_ex = "没有空间！",
             k_no_space_ex = "没有空间！",
@@ -3713,12 +3713,12 @@ return {
             k_plus_planet = "+1星球牌",
             k_plus_spectral = "+1幻灵牌",
             k_active_ex = "激活！",
-            k_level_up_ex = "提升等级！",
+            k_level_up_ex = "等级提升！",
             k_upgrade_ex = "升级！",
             k_again_ex = "再来一次！",
             k_val_up = "价值提升！",
             k_reset = "重置",
-            k_extinct_ex = "已灭绝！",
+            k_extinct_ex = "已凋亡！",
             k_disabled_ex = "已失效！",
             k_safe_ex = "安全！",
             k_saved_ex = "被救了！",
@@ -3767,7 +3767,7 @@ return {
             },
             ml_unlock_all_explanation = {
                 "警告！解锁全部收藏道具",
-                "会禁用此存档配置的成就！"
+                "会禁用此存档的成就！"
             },
             k_plus_joker = "+1小丑",
             k_eaten_ex = "吃完了！",
@@ -3780,7 +3780,7 @@ return {
             k_trophies_disabled = "奖杯被禁用",
             ml_unlock_all_trophies = {
                 "警告！解锁全部收藏道具",
-                "会禁用此存档配置的奖杯！"
+                "会禁用此存档的奖杯！"
             },
             k_poker_hand = "牌型",
             ph_4_7_of_clubs = "四张梅花7"
