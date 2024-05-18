@@ -244,7 +244,7 @@ return {
                     "打出的每一张{C:attention}8{}",
                     "有{C:green}#1#/#2#{}的几率在计分时",
                     "生成一张{C:tarot}塔罗牌",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             j_misprint = {
@@ -401,9 +401,8 @@ return {
             j_egg = {
                 name = "鸡蛋",
                 text = {
-                    "在回合结束时",
-                    "本卡的{C:attention}出售价值",
-                    "增加{C:money}$#1#"
+                    "回合结束时",
+                    "本牌的{C:attention}售价提升{C:money}$#1#"
                 }
             },
             j_burglar = {
@@ -469,7 +468,7 @@ return {
                     "如果回合的{C:attention}第一次出牌{}",
                     "是一张单独的{C:attention}6{}",
                     "则将其销毁并生成一张{C:spectral}幻灵牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             j_constellation = {
@@ -510,7 +509,7 @@ return {
                     "如果打出的牌中包含",
                     "一张{C:attention}A{}和一个{C:attention}顺子{}",
                     "生成一张{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             j_todo_list = {
@@ -956,7 +955,7 @@ return {
                     "如果{C:attention}牌型{}为",
                     "{C:attention}#1#{}，随机生成",
                     "一张{C:spectral}幻灵牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             j_riff_raff = {
@@ -1048,7 +1047,7 @@ return {
                 text = {
                     "在选择{C:attention}盲注{}时",
                     "生成一张{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 },
                 unlock = {
                     "发现每张",
@@ -1295,7 +1294,7 @@ return {
                     "打开任一{C:attention}补充包{}时",
                     "有{C:green}#1#/#2#{}的几率",
                     "生成一张{C:attention}塔罗牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             j_lucky_cat = {
@@ -1542,7 +1541,7 @@ return {
                     "生成你最常用的",
                     "{C:attention}消耗牌{}",
                     "{E:1,V:1}#1#",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             v_overstock_plus = {
@@ -1743,7 +1742,7 @@ return {
                     "生成你最常",
                     "打出的{C:attention}小丑牌{}",
                     "{E:1,V:1}#1#",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 },
                 unlock = {
                     "在商店中购买",
@@ -1791,7 +1790,7 @@ return {
                 text = {
                     "生成最多{C:attention}#1#张",
                     "张随机{C:planet}星球牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             c_empress = {
@@ -1807,7 +1806,7 @@ return {
                 text = {
                     "生成最多{C:attention}#1#张",
                     "随机{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             c_heirophant = {
@@ -1936,7 +1935,7 @@ return {
                 text = {
                     "生成一张随机的",
                     "{C:attention}{}小丑牌",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             c_world = {
@@ -1952,109 +1951,97 @@ return {
             c_mercury = {
                 name = "水星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_venus = {
                 name = "金星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_earth = {
                 name = "地球",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_mars = {
                 name = "火星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_jupiter = {
                 name = "木星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_saturn = {
                 name = "土星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_uranus = {
                 name = "天王星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_neptune = {
                 name = "海王星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_pluto = {
                 name = "冥王星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_ceres = {
                 name = "谷神星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_planet_x = {
                 name = "X行星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             },
             c_eris = {
                 name = "阋神星",
                 text = {
-                    "{S:0.8}（{S:0.8,V:1}等级#1#{S:0.8}）{}",
+                    "{s:0.8}（{s:0.8,V:1}等级#1#{s:0.8}）{}",
                     "升级{C:attention}#2#",
-                    "{C:mult}+#3#{}倍率并且",
-                    "{C:chips}+#4#{}筹码"
+                    "{C:mult}+#3#{}倍率，{C:chips}+#4#{}筹码"
                 }
             }
         },
@@ -2148,7 +2135,7 @@ return {
                 text = {
                     "生成一张",
                     "{C:legendary,E:1}传奇{}小丑牌",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             c_black_hole = {
@@ -2512,7 +2499,7 @@ return {
                 text = {
                     "生成最多{C:attention}#1#张",
                     "{C:blue}普通{}小丑牌",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             tag_skip = {
@@ -3256,7 +3243,7 @@ return {
                     "如果在回合结束时",
                     "本牌还{C:attention}留在{}手牌中",
                     "会生成最后一手牌型的{C:planet}星球牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             purple_seal = {
@@ -3264,7 +3251,7 @@ return {
                 text = {
                     "被{C:attention}弃掉{}时",
                     "生成一张{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空位）"
+                    "{C:inactive}（必须有空间）"
                 }
             },
             eternal = {
@@ -3745,10 +3732,10 @@ return {
             ph_score_hand = "最佳出牌",
             ph_score_poker_hand = "最常用牌型",
             ph_score_new_collection = "新发现",
-            ph_score_cards_played = "已使用卡牌",
-            ph_score_cards_discarded = "已弃掉卡牌",
+            ph_score_cards_played = "出牌张数",
+            ph_score_cards_discarded = "弃牌张数",
             ph_score_times_rerolled = "重掷次数",
-            ph_score_cards_purchased = "已购买卡牌",
+            ph_score_cards_purchased = "购入卡牌数",
             ml_edition_seal_enhancement_explanation = {
                 "每张游戏牌可能会有",
                 "增强、不同版本和蜡封"
