@@ -133,12 +133,12 @@ return {
                 }
             },
             j_stencil = {
-                name = "模具小丑",
+                name = "小丑模具",
                 text = {
-                    "每个空的{C:attention}小丑牌{}槽位",
-                    "获得{X:red,C:white} X1{}倍率",
-                    "{s:0.8}模具小丑算作空位",
-                    "（当前为{X:red,C:white} X#1# {C:inactive}）"
+                    "每有一个空的{C:attention}小丑牌{}槽位",
+                    "本牌获得{X:red,C:white} X1{}倍率",
+                    "{s:0.8}自身算作空位",
+                    "（当前为{X:red,C:white} X#1# {C:inactive}倍率）"
                 }
             },
             j_four_fingers = {
@@ -524,13 +524,13 @@ return {
             j_ticket = {
                 name = "黄金门票",
                 text = {
-                    "打出的{C:attention}黃金牌{}",
+                    "打出的{C:attention}黄金牌{}",
                     "在计分时获得{C:money}$#1#{}"
                 },
                 unlock = {
                     "打出一手五张",
                     "只包含",
-                    "{C:attention,E:1}黃金牌{}的牌"
+                    "{C:attention,E:1}黄金牌{}的牌"
                 }
             },
             j_mr_bones = {
@@ -2300,7 +2300,7 @@ return {
                 text = {
                     "{C:attention}小盲注{}",
                     "没有奖励金",
-                    "{s:0.8}之前所有赌注也都起效"
+                    "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
             stake_green = {
@@ -2308,14 +2308,14 @@ return {
                 text = {
                     "{C:attention}底注{}提升时",
                     "过关需求分数的增速更快",
-                    "{s:0.8}之前所有赌注也都起效"
+                    "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
             stake_blue = {
                 name = "蓝注",
                 text = {
                     "弃牌次数{C:red}-1{}",
-                    "{s:0.8}之前所有赌注也都起效"
+                    "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
             stake_black = {
@@ -2323,7 +2323,7 @@ return {
                 text = {
                     "商店可能会出现{C:attention}永恒{}小丑牌",
                     "{C:inactive,s:0.8}(无法卖出或摧毁)",
-                    "{s:0.8}之前所有赌注也都起效"
+                    "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
             stake_purple = {
@@ -2331,7 +2331,7 @@ return {
                 text = {
                     "{C:attention}底注{}提升时",
                     "过关需求分数的增速更快",
-                    "{s:0.8}之前所有赌注也都起效"
+                    "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
             stake_orange = {
@@ -2339,7 +2339,7 @@ return {
                 text = {
                     "商店可能会出现{C:attention}易腐{}小丑牌",
                     "{C:inactive,s:0.8}（经过5回合后失效）",
-                    "{s:0.8}之前所有赌注也都起效"
+                    "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
             stake_gold = {
@@ -2347,7 +2347,7 @@ return {
                 text = {
                     "商店可能会出现{C:attention}出租{}小丑牌",
                     "{C:inactive,s:0.8}（售价$1，每回合结束时扣除{C:money,s:0.8}$3{C:inactive,s:0.8}租金）",
-                    "{s:0.8}之前所有赌注也都起效"
+                    "{s:0.8}先前所有赌注的限制也都起效"
                 }
             }
         },
@@ -2428,7 +2428,7 @@ return {
                 }
             },
             tag_charm = {
-                name = "吊饰标签",
+                name = "魔符标签",
                 text = {
                     "获得一个免费的",
                     "{C:tarot}超级秘术包"
@@ -2442,10 +2442,10 @@ return {
                 }
             },
             tag_buffoon = {
-                name = "小丑标签",
+                name = "丑角标签",
                 text = {
                     "获得一个免费的",
-                    "{C:attention}超级小丑包"
+                    "{C:attention}超级丑角包"
                 }
             },
             tag_handy = {
@@ -2885,67 +2885,59 @@ return {
                 }
             },
             white_sticker = {
-                name = "白标贴",
+                name = "白注纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}白注",
-                    "难度下获胜"
+                    "赢得了{C:attention}白注"
                 }
             },
             red_sticker = {
-                name = "红标贴",
+                name = "红色纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}红注",
-                    "难度下获胜"
+                    "赢得了{C:attention}红注"
                 }
             },
             green_sticker = {
-                name = "绿标贴",
+                name = "绿色纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}绿注",
-                    "难度下获胜"
+                    "赢得了{C:attention}绿注"
                 }
             },
             blue_sticker = {
-                name = "蓝标贴",
+                name = "蓝色纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}蓝注",
-                    "难度下获胜"
+                    "赢得了{C:attention}蓝注"
                 }
             },
             black_sticker = {
-                name = "黑标贴",
+                name = "黑色纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}黑注",
-                    "难度下获胜"
+                    "赢得了{C:attention}黑注"
                 }
             },
             purple_sticker = {
-                name = "紫标贴",
+                name = "紫色纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}紫注",
-                    "难度下获胜"
+                    "赢得了{C:attention}紫注"
                 }
             },
             orange_sticker = {
-                name = "橙标贴",
+                name = "橙色纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}橙注",
-                    "难度下获胜"
+                    "赢得了{C:attention}橙注"
                 }
             },
             gold_sticker = {
-                name = "金色标贴",
+                name = "金色纪念贴",
                 text = {
                     "使用本牌",
-                    "在{C:attention}金注",
-                    "难度下获胜"
+                    "赢得了{C:attention}金注"
                 }
             },
             playing_card = {
@@ -2976,8 +2968,7 @@ return {
             debuffed_default = {
                 name = "失效",
                 text = {
-                    "所有能力",
-                    "都不起效"
+                    "丧失所有能力"
                 }
             },
             debuffed_playing_card = {
@@ -3202,31 +3193,30 @@ return {
                 }
             },
             p_buffoon_normal = {
-                name = "小丑包",
+                name = "丑角包",
                 text = {
                     "从最多{C:attention}#2#张{C:joker}小丑牌{}中",
                     "选择{C:attention}#1#{}张"
                 }
             },
             p_buffoon_jumbo = {
-                name = "巨型小丑包",
+                name = "巨型丑角包",
                 text = {
                     "从最多{C:attention}#2#张{C:joker}小丑牌{}中",
                     "选择{C:attention}#1#{}张"
                 }
             },
             p_buffoon_mega = {
-                name = "超级小丑包",
+                name = "超级丑角包",
                 text = {
                     "从最多{C:attention}#2#张{C:joker}小丑牌{}中",
                     "选择{C:attention}#1#{}张"
                 }
             },
             pinned_left = {
-                name = "固定",
+                name = "左极固定",
                 text = {
-                    "本牌",
-                    "固定在",
+                    "强制固定在",
                     "最左侧"
                 }
             },
@@ -3352,32 +3342,32 @@ return {
         },
         poker_hand_descriptions = {
             ['Flush House'] = {
-                "三条及对子，且",
-                "花色相同"
+                "包含一个三条和一个对子",
+                "且花色相同"
             },
             ['Five of a Kind'] = {
                 "5张相同点数的牌"
             },
             ['Royal Flush'] = {
-                "连续5张牌（点数连续），且",
-                "花色相同"
+                "点数连续的5张牌",
+                "且花色相同"
             },
             ['Straight Flush'] = {
-                "连续5张牌（点数连续），且",
-                "花色相同"
+                "点数连续的5张牌",
+                "且花色相同"
             },
             ['Four of a Kind'] = {
                 "4张相同点数的牌，可以与另外",
                 "一张不计分的牌一同打出"
             },
             ['Full House'] = {
-                "三条及对子"
+                "包含一个三条和一个对子"
             },
             ['Flush'] = {
                 "5张牌花色相同"
             },
             ['Straight'] = {
-                "连续5张牌（点数连续）"
+                "点数连续的5张牌"
             },
             ['Three of a Kind'] = {
                 "3张点数相同的牌，可以与另外",
@@ -3417,10 +3407,10 @@ return {
             blue_seal = "蓝色蜡封",
             red_seal = "红色蜡封",
             purple_seal = "紫色蜡封",
-            eternal = "永恒卡",
+            eternal = "永恒",
             perishable = "易腐",
             rental = "出租",
-            pinned_left = "固定"
+            pinned_left = "左极固定"
         },
         dictionary = {
             b_sell = "售出",
@@ -3547,11 +3537,11 @@ return {
             k_celestial_pack = "天体包",
             k_spectral_pack = "幻灵包",
             k_standard_pack = "标准包",
-            k_buffoon_pack = "小丑包",
+            k_buffoon_pack = "丑角包",
             k_enter_text = "输入文本",
             k_defeated_by = "负于",
             k_level_prefix = "等级",
-            k_also_applied = "同样起效",
+            k_also_applied = "下列限制也都起效",
             k_base_cards = "基础卡牌",
             k_effective = "有效",
             k_aces = "A",
@@ -3678,7 +3668,7 @@ return {
                 "发现均被禁用"
             },
             ['$'] = "$",
-            k_redeemed_ex = "已入手！",
+            k_redeemed_ex = "已兑换！",
             k_duplicated_ex = "复制！",
             k_no_room_ex = "没有空间！",
             k_no_space_ex = "没有空间！",
@@ -3774,8 +3764,8 @@ return {
             loyalty_inactive = "#1#次后激活",
             deck_preview_wheel_singular = "由于抽出的#1#牌面朝下，数字可能较低",
             deck_preview_wheel_plural = "由于抽出的#1#牌面朝下，数字可能较低",
-            challenges_completed = "已完成#1#/#2#挑战",
-            interest = "每$#2#获得#1#利息（最高 #3#）",
+            challenges_completed = "已完成#1#/#2#个挑战",
+            interest = "每持有$#2#给予$#1#利息（最高$#3#）",
             remaining_hand_money = "剩余出牌次数（每次$#1#）",
             remaining_discard_money = "剩余弃牌次数（每次$#1#）",
             ml_foil_desc = {
@@ -4108,7 +4098,7 @@ return {
             extreme_couponer = "发现所有奖券",
             completionist = "发现100%的收藏道具",
             completionist_plus = "赢得胜利且每个牌组都在金注难度",
-            completionist_plus_plus = "每张小丑牌都获得一个金色标贴"
+            completionist_plus_plus = "每张小丑牌都获得一个金色纪念贴"
         },
         quips = {
             wq_1 = {
