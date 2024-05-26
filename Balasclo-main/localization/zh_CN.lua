@@ -909,7 +909,7 @@ return {
                 }
             },
             j_cavendish = {
-                name = "卡文迪什",
+                name = "香芽蕉",
                 text = {
                     "{X:mult,C:white}X#1#{}倍率",
                     "回合结束时",
@@ -2243,7 +2243,7 @@ return {
                 }
             },
             m_wild = {
-                name = "万能牌",
+                name = "百搭牌",
                 text = {
                     "可以视作",
                     "任何花色"
@@ -2495,7 +2495,7 @@ return {
                 }
             },
             tag_top_up = {
-                name = "充值标签",
+                name = "凑数标签",
                 text = {
                     "生成最多{C:attention}#1#张",
                     "{C:blue}普通{}小丑牌",
@@ -2649,8 +2649,7 @@ return {
             bl_house = {
                 name = "房屋",
                 text = {
-                    "第一次的手牌",
-                    "以背面朝上方式抽取"
+                    "初始手牌背面朝上"
                 }
             },
             bl_club = {
@@ -3430,7 +3429,7 @@ return {
             b_options = "选项",
             b_reroll_boss = "重掷Boss盲注",
             b_skip_blind = "跳过盲注",
-            b_skip_reward = "跳过奖励",
+            b_skip_reward = "跳关奖励",
             b_skip = "跳过",
             b_start_new_run = "开始新的一局",
             b_main_menu = "主菜单",
@@ -4077,7 +4076,7 @@ return {
             card_player = "打出至少2500张牌",
             card_discarder = "弃掉至少2500张牌",
             nest_egg = "单局中拥有 $400 或以上",
-            flushed = "用5张万能牌打出一次同花",
+            flushed = "用5张百搭牌打出一次同花",
             speedrunner = "在12回合内赢得一局",
             roi = "在底注4阶段时购买5张奖券",
             shattered = "单次出牌打碎2张玻璃牌",
