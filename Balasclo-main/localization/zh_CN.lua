@@ -387,7 +387,7 @@ return {
                     "若打出的牌包含",
                     "没有计分的{C:attention}人头牌",
                     "本牌获得{C:mult}+#1#{}倍率",
-                    "不合要求的出牌将重置倍率",
+                    "人头牌计分时重置倍率",
                     "{C:inactive}（当前为{C:mult}+#2#{C:inactive}倍率）"
                 }
             },
@@ -424,8 +424,8 @@ return {
             j_runner = {
                 name = "跑步选手",
                 text = {
-                    "如果打出的牌中包含",
-                    "{C:attention}顺子{}",
+                    "如果打出的牌中",
+                    "包含{C:attention}顺子{}",
                     "本牌获得{C:chips}+#2#{}筹码",
                     "{C:inactive}（当前为{C:chips}+#1#{C:inactive}筹码）"
                 }
@@ -1184,7 +1184,7 @@ return {
                 name = "男爵",
                 text = {
                     "留在手牌中的",
-                    "每一张{C:attention}K{}",
+                    "每一张{C:attention}K",
                     "会给予{X:mult,C:white} X#1# {}倍率"
                 }
             },
@@ -1514,8 +1514,8 @@ return {
             v_magic_trick = {
                 name = "魔术",
                 text = {
-                    "{C:attention}商店{}里面",
-                    "有{C:attention}游戏牌{}",
+                    "{C:attention}商店{}中有",
+                    "{C:attention}扑克牌",
                     "可供选购"
                 }
             },
@@ -1702,13 +1702,13 @@ return {
             v_illusion = {
                 name = "幻象",
                 text = {
-                    "商店中的{C:attention}游戏牌",
+                    "商店中的{C:attention}扑克牌",
                     "可以是{C:enhanced}增强卡牌{}、",
                     "{C:dark_edition}不同版本{}、和/或{C:attention}蜡封"
                 },
                 unlock = {
                     "在商店中购买",
-                    "总计{C:attention}#1#{}张游戏牌",
+                    "总计{C:attention}#1#{}张扑克牌",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1780,9 +1780,8 @@ return {
             c_magician = {
                 name = "魔术师",
                 text = {
-                    "增强{C:attention}#1#{}张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_high_priestess = {
@@ -1796,9 +1795,8 @@ return {
             c_empress = {
                 name = "皇后",
                 text = {
-                    "增强{C:attention}#1#张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_emperor = {
@@ -1812,33 +1810,29 @@ return {
             c_heirophant = {
                 name = "教皇",
                 text = {
-                    "增强{C:attention}#1#张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_lovers = {
                 name = "恋人",
                 text = {
-                    "增强{C:attention}#1#{}张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_chariot = {
                 name = "战车",
                 text = {
-                    "增强{C:attention}#1#{}张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_justice = {
                 name = "正义",
                 text = {
-                    "增强{C:attention}#1#{}张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_hermit = {
@@ -1875,35 +1869,32 @@ return {
             c_death = {
                 name = "死神",
                 text = {
-                    "选定{C:attention}#1#{}张卡牌，",
-                    "将{C:attention}靠左{}的那张牌",
-                    "变成{C:attention}靠右{}的那张牌",
-                    "{C:inactive}（你可以拖动来改变位置）"
+                    "选定{C:attention}#1#{}张卡牌",
+                    "将{C:attention}左侧{}的牌变为{C:attention}右侧{}的牌",
+                    "{C:inactive}（拖动以改变位置）"
                 }
             },
             c_temperance = {
                 name = "节制",
                 text = {
-                    "获得拥有的小丑牌",
-                    "售出价格总和的",
-                    "资金{C:inactive}（最高{C:money}$#1#{C:inactive}）",
+                    "获得当前所拥有的小丑牌",
+                    "售出总价的资金",
+                    "{C:inactive}（上限为{C:money}$#1#{C:inactive}）",
                     "{C:inactive}（当前为{C:money}$#2#{C:inactive}）"
                 }
             },
             c_devil = {
                 name = "恶魔",
                 text = {
-                    "增强{C:attention}#1#{}张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_tower = {
                 name = "塔",
                 text = {
-                    "增强{C:attention}#1#{}张",
-                    "选定卡牌成为",
-                    "{C:attention}#2#"
+                    "将{C:attention}#1#{}张选定卡牌",
+                    "增强为{C:attention}#2#"
                 }
             },
             c_star = {
@@ -2076,9 +2067,8 @@ return {
             c_talisman = {
                 name = "护身符",
                 text = {
-                    "将{C:attention}金色蜡封{}添加到",
-                    "{C:attention}1{}张选定的",
-                    "手牌中"
+                "为{C:attention}1{}张选定的手牌",
+                    "打上{C:attention}金色蜡封"
                 }
             },
             c_aura = {
@@ -2100,13 +2090,12 @@ return {
             c_sigil = {
                 name = "符印",
                 text = {
-                    "将手中所有",
-                    "卡牌转换为同一种",
-                    "随机{C:attention}花色"
+                    "将所有手牌转换为",
+                    "同一种随机{C:attention}花色"
                 }
             },
             c_ouija = {
-                name = "占卜",
+                name = "显灵盘",
                 text = {
                     "将手中所有",
                     "手持牌转换为同一个",
@@ -2575,7 +2564,7 @@ return {
                 }
             },
             bl_goad = {
-                name = "挑衅",
+                name = "刺棒",
                 text = {
                     "黑桃牌全部失效"
                 }
@@ -2614,7 +2603,7 @@ return {
                 }
             },
             bl_head = {
-                name = "头部",
+                name = "头",
                 text = {
                     "红桃牌全部失效"
                 }
@@ -2653,7 +2642,7 @@ return {
                 }
             },
             bl_club = {
-                name = "梅花",
+                name = "长棍",
                 text = {
                     "梅花牌全部失效"
                 }
@@ -2666,7 +2655,7 @@ return {
                 }
             },
             bl_window = {
-                name = "窗口",
+                name = "窗",
                 text = {
                     "方片牌全部失效"
                 }
@@ -2678,10 +2667,10 @@ return {
                 }
             },
             bl_serpent = {
-                name = "巨蟒",
+                name = "蛇",
                 text = {
                     "出牌或弃牌后",
-                    "总是抽 3 张牌"
+                    "固定抽取3张牌"
                 }
             },
             bl_pillar = {
@@ -2787,7 +2776,7 @@ return {
                 name = "金属牌组",
                 text = {
                     "开局时，将牌组内",
-                    "{C:attention}#1#张游戏牌",
+                    "{C:attention}#1#张扑克牌",
                     "加强成{C:attention}钢铁牌"
                 }
             },
@@ -3099,96 +3088,84 @@ return {
                 name = "秘术包",
                 text = {
                     "从最多{C:attention}#2#张{C:tarot}塔罗牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_arcana_jumbo = {
                 name = "巨型秘术包",
                 text = {
                     "从最多{C:attention}#2#张{C:tarot}塔罗牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_arcana_mega = {
                 name = "超级秘术包",
                 text = {
                     "从最多{C:attention}#2#张{C:tarot}塔罗牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_celestial_normal = {
                 name = "天体包",
                 text = {
                     "从最多{C:attention}#2#张{C:planet}星球牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_celestial_jumbo = {
                 name = "巨型天体包",
                 text = {
                     "从最多{C:attention}#2#张{C:planet}星球牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_celestial_mega = {
                 name = "超级天体包",
                 text = {
                     "从最多{C:attention}#2#张{C:planet}星球牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_spectral_normal = {
                 name = "幻灵包",
                 text = {
                     "从最多{C:attention}#2#张{C:spectral}幻灵牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_spectral_jumbo = {
                 name = "巨型幻灵包",
                 text = {
                     "从最多{C:attention}#2#张{C:spectral}幻灵牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_spectral_mega = {
                 name = "超级幻灵包",
                 text = {
                     "从最多{C:attention}#2#张{C:spectral}幻灵牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "即选即用"
+                    "选择{C:attention}#1#{}张并立即使用"
                 }
             },
             p_standard_normal = {
                 name = "标准包",
                 text = {
-                    "从最多{C:attention}#2#张{C:attention}游戏牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "添加到你的牌组"
+                    "从最多{C:attention}#2#张{C:attention}扑克牌{}中",
+                    "选择{C:attention}#1#{}张加入牌组"
                 }
             },
             p_standard_jumbo = {
                 name = "巨型标准包",
                 text = {
-                    "从最多{C:attention}#2#张{C:attention}游戏牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "添加到你的牌组"
+                    "从最多{C:attention}#2#张{C:attention}扑克牌{}中",
+                    "选择{C:attention}#1#{}张加入牌组"
                 }
             },
             p_standard_mega = {
                 name = "超级标准包",
                 text = {
-                    "从最多{C:attention}#2#张{C:attention}游戏牌{}中",
-                    "选择{C:attention}#1#{}张",
-                    "添加到你的牌组"
+                    "从最多{C:attention}#2#张{C:attention}扑克牌{}中",
+                    "选择{C:attention}#1#{}张加入牌组"
                 }
             },
             p_buffoon_normal = {
@@ -3726,7 +3703,7 @@ return {
             ph_score_times_rerolled = "重掷次数",
             ph_score_cards_purchased = "购入卡牌数",
             ml_edition_seal_enhancement_explanation = {
-                "每张游戏牌可能会有",
+                "每张扑克牌可能会有",
                 "增强、不同版本和蜡封"
             },
             ml_unlock_all_explanation = {
