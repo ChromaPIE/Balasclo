@@ -244,7 +244,7 @@ return {
                     "打出的每一张{C:attention}8{}",
                     "有{C:green}#1#/#2#{}的几率在计分时",
                     "生成一张{C:tarot}塔罗牌",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             j_misprint = {
@@ -341,7 +341,7 @@ return {
                 }
             },
             j_even_steven = {
-                name = "偶数先生",
+                name = "偶数欧叔",
                 text = {
                     "打出的{C:attention}偶数{}点卡牌",
                     "在计分时给予{C:mult}+#1#{}倍率",
@@ -349,7 +349,7 @@ return {
                 }
             },
             j_odd_todd = {
-                name = "奇数小哥",
+                name = "奇数基叔",
                 text = {
                     "打出的{C:attention}奇数{}点卡牌",
                     "在计分时给予{C:chips}+#1#{}筹码",
@@ -384,10 +384,10 @@ return {
             j_ride_the_bus = {
                 name = "搭乘巴士",
                 text = {
-                    "若打出的牌包含",
-                    "没有计分的{C:attention}人头牌",
+                    "若打出的牌中不包含",
+                    "计分的{C:attention}人头牌",
                     "本牌获得{C:mult}+#1#{}倍率",
-                    "人头牌计分时重置倍率",
+                    "不合要求的出牌将重置倍率",
                     "{C:inactive}（当前为{C:mult}+#2#{C:inactive}倍率）"
                 }
             },
@@ -468,7 +468,7 @@ return {
                     "如果回合的{C:attention}第一次出牌{}",
                     "是一张单独的{C:attention}6{}",
                     "则将其销毁并生成一张{C:spectral}幻灵牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             j_constellation = {
@@ -509,7 +509,7 @@ return {
                     "如果打出的牌中包含",
                     "一张{C:attention}A{}和一个{C:attention}顺子{}",
                     "生成一张{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             j_todo_list = {
@@ -955,7 +955,7 @@ return {
                     "如果{C:attention}牌型{}为",
                     "{C:attention}#1#{}，随机生成",
                     "一张{C:spectral}幻灵牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             j_riff_raff = {
@@ -963,7 +963,7 @@ return {
                 text = {
                     "在选择{C:attention}盲注{}时",
                     "生成{C:attention}#1#张{C:blue}普通{C:attention}小丑牌",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             j_stuntman = {
@@ -1047,7 +1047,7 @@ return {
                 text = {
                     "在选择{C:attention}盲注{}时",
                     "生成一张{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 },
                 unlock = {
                     "发现每张",
@@ -1294,7 +1294,7 @@ return {
                     "打开任一{C:attention}补充包{}时",
                     "有{C:green}#1#/#2#{}的几率",
                     "生成一张{C:attention}塔罗牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             j_lucky_cat = {
@@ -1324,8 +1324,9 @@ return {
             j_diet_cola = {
                 name = "零糖可乐",
                 text = {
-                    "售出这牌即可免费",
-                    "生成一个{C:attention}#1#"
+                    "售出本牌即可",
+                    "免费生成一个",
+                    "{C:attention}#1#"
                 }
             },
             j_trading = {
@@ -1512,7 +1513,7 @@ return {
                 }
             },
             v_magic_trick = {
-                name = "魔术",
+                name = "戏法",
                 text = {
                     "{C:attention}商店{}中有",
                     "{C:attention}扑克牌",
@@ -1541,7 +1542,7 @@ return {
                     "生成你最常用的",
                     "{C:attention}消耗牌{}",
                     "{E:1,V:1}#1#",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             v_overstock_plus = {
@@ -1725,7 +1726,7 @@ return {
                 }
             },
             v_retcon = {
-                name = "重构",
+                name = "追溯修订",
                 text = {
                     "重掷Boss盲注",
                     "{C:attention}不限{}次数",
@@ -1742,7 +1743,7 @@ return {
                     "生成你最常",
                     "打出的{C:attention}小丑牌{}",
                     "{E:1,V:1}#1#",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 },
                 unlock = {
                     "在商店中购买",
@@ -1789,7 +1790,7 @@ return {
                 text = {
                     "生成最多{C:attention}#1#张",
                     "张随机{C:planet}星球牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             c_empress = {
@@ -1804,7 +1805,7 @@ return {
                 text = {
                     "生成最多{C:attention}#1#张",
                     "随机{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             c_heirophant = {
@@ -1839,14 +1840,14 @@ return {
                 name = "隐者",
                 text = {
                     "资金加倍",
-                    "{C:inactive}（最高{C:money}$#1#{C:inactive}）"
+                    "{C:inactive}（至多{C:money}$#1#{C:inactive}）"
                 }
             },
             c_wheel_of_fortune = {
                 name = "命运之轮",
                 text = {
                     "有{C:green}#1#/#2#{}的几率",
-                    "给一张随机{C:attention}小丑牌",
+                    "为随机一张{C:attention}小丑牌",
                     "添加{C:dark_edition}闪箔{}、{C:dark_edition}镭射{}",
                     "或{C:dark_edition}多彩{}版本"
                 }
@@ -1855,8 +1856,8 @@ return {
                 name = "力量",
                 text = {
                     "将最多{C:attention}#1#{}张",
-                    "选定卡牌",
-                    "点数提高{C:attention}1"
+                    "选定卡牌的",
+                    "点数提升{C:attention}1"
                 }
             },
             c_hanged_man = {
@@ -1926,7 +1927,7 @@ return {
                 text = {
                     "生成一张随机的",
                     "{C:attention}{}小丑牌",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             c_world = {
@@ -2124,7 +2125,7 @@ return {
                 text = {
                     "生成一张",
                     "{C:legendary,E:1}传奇{}小丑牌",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             c_black_hole = {
@@ -2296,7 +2297,7 @@ return {
                 name = "绿注",
                 text = {
                     "{C:attention}底注{}提升时",
-                    "过关需求分数的增速更快",
+                    "过关需求分数的涨幅更大",
                     "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
@@ -2319,7 +2320,7 @@ return {
                 name = "紫注",
                 text = {
                     "{C:attention}底注{}提升时",
-                    "过关需求分数的增速更快",
+                    "过关需求分数的涨幅更大",
                     "{s:0.8}先前所有赌注的限制也都起效"
                 }
             },
@@ -2488,7 +2489,7 @@ return {
                 text = {
                     "生成最多{C:attention}#1#张",
                     "{C:blue}普通{}小丑牌",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             tag_skip = {
@@ -3209,7 +3210,7 @@ return {
                     "如果在回合结束时",
                     "本牌还{C:attention}留在{}手牌中",
                     "会生成最后一手牌型的{C:planet}星球牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             purple_seal = {
@@ -3217,7 +3218,7 @@ return {
                 text = {
                     "被{C:attention}弃掉{}时",
                     "生成一张{C:tarot}塔罗牌{}",
-                    "{C:inactive}（必须有空间）"
+                    "{C:inactive}（必须有空位）"
                 }
             },
             eternal = {
@@ -4085,77 +4086,66 @@ return {
                 "相当不错！"
             },
             wq_3 = {
-                "看起来你",
-                "是有真本事的！"
+                "你小子",
+                "还真有两把刷子！"
             },
             wq_4 = {
                 "这些筹码",
-                "都是虚拟的",
-                "真是太可惜了……"
+                "要真能兑成现钱，",
+                "那该多好……"
             },
             wq_5 = {
-                "看来我把你",
-                "教的不错啊！"
+                "说“谢谢金宝老师”！"
             },
             wq_6 = {
-                "你有几局",
-                "非常精彩啊！"
+                "你刚才那几局",
+                "有操作的啊！"
             },
             wq_7 = {
-                "幸好",
-                "我没有",
-                "赌你会输"
+                "得亏我没押你输！"
             },
             lq_1 = {
-                "可能消消乐",
-                "才更适合",
-                "我们的节奏……"
+                "隔行如隔山，",
+                "我祝你成功吧……"
             },
             lq_2 = {
-                "我们的牌打得",
-                "相当潦草！"
+                "来真钱的话，",
+                "你可能连内裤都不剩了！"
             },
             lq_3 = {
-                "我们是时候",
-                "撤出",
-                "重来了！"
+                "洗牌重来吧哥们儿！"
             },
             lq_4 = {
-                "你也知道",
-                "老话怎么说的，",
+                "有句话话怎么说来着，",
                 "你可能小赚，但庄家永远不亏！"
             },
             lq_5 = {
-                "看来我们",
-                "找到了谁才是",
-                "真正的小丑！"
+                "论小丑这一块，",
+                "你说第二，",
+                "我都不敢说第一了。"
             },
             lq_6 = {
-                "哦不，你刚刚是",
-                "真的在吹牛？"
+                "牛皮吹破了吧？"
             },
             lq_7 = {
-                "看来我们才是",
-                "那个出洋相的！"
+                "哈哈，",
+                "小丑玩小丑。"
             },
             lq_8 = {
-                "如果我有手的话",
-                "我肯定会",
-                "捂上双眼！"
+                "蓝图能斜眼，",
+                "而我只能盯着你，",
+                "看着你凄惨的模样。"
             },
             lq_9 = {
-                "我真是个",
-                "傻瓜，你的借口",
-                "又是什么？"
+                "我是小丑，",
+                "你不会也是吧？"
             },
             lq_10 = {
-                "真是太惨了！"
+                "输惨喽！"
             },
             dq_1 = {
-                "哎哟！我希望你",
-                "肚子里还有",
-                "别的招式来",
-                "应对这场最终挑战！"
+                "噫！你最好还留了一手。",
+                "别在最后关头打道回府！"
             }
         },
         challenge_names = {
