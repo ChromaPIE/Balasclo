@@ -131,6 +131,14 @@ return {
 					"die, nothing more",
 				},
 			},
+			["j_dsix_pure_savior_die"] = {
+				["name"] = "Pure: Savior Die",
+				["text"] = {
+					"The pinacle of strength and might",
+					"No blind can hold it's own",
+					"with this die in play",
+				},
+			},
 			["j_dsix_chaos_die"] = {
 				["name"] = "Chaos Die",
 				["text"] = {
@@ -160,12 +168,10 @@ return {
 					"who work at Wall Street",
 				},
 			},
-			["j_dsix_pure_savior_die"] = {
-				["name"] = "Pure: Savior Die",
+			["j_dsix_golden_plus2_die"] = {
+				["name"] = "Golden Die++",
 				["text"] = {
-					"The pinacle of strength and might",
-					"No blind can hold it's own",
-					"with this die in play",
+					"Feels like 22K gold",
 				},
 			},
 			["j_dsix_xmult_plus_die"] = {
@@ -283,7 +289,7 @@ return {
 			["payout_plus_side"] = {
 				["name"] = "Payout+",
 				["text"] = {
-					"Earn {C:money}$#1#{C:attention} at",
+					"{C:attention}Earn {C:money}$#1#{C:attention} at",
 					"{C:attention}end of round",
 				},
 			},
@@ -443,7 +449,7 @@ return {
 			["payout_side"] = {
 				["name"] = "Payout",
 				["text"] = {
-					"Earn {C:money}$#1#{C:attention} at",
+					"{C:attention}Earn {C:money}$#1#{C:attention} at",
 					"{C:attention}end of round",
 				},
 			},
@@ -524,9 +530,8 @@ return {
 				["name"] = "Curse: Nullify",
 				["text"] = {
 					"{C:purple}This Joker is {C:attention}Pinned",
-					"{C:purple}The joker to the left",
+					"{C:purple}The Joker to the right",
 					"{C:purple}is {C:attention}Debuffed",
-					"{C:purple}for the rest of the blind",
 				},
 			},
 			["all_in_side"] = {
@@ -868,7 +873,7 @@ return {
 				["label"] = "Payout+",
 				["name"] = "{C:attention}Payout+{}",
 				["text"] = {
-					"Earn {C:money}$#1#{C:attention} at",
+					"{C:attention}Earn {C:money}$#1#{C:attention} at",
 					"{C:attention}end of round",
 				},
 			},
@@ -906,9 +911,8 @@ return {
 				["name"] = "{C:purple}Curse: Nullify{}",
 				["text"] = {
 					"{C:purple}This Joker is {C:attention}Pinned",
-					"{C:purple}The joker to the left",
+					"{C:purple}The Joker to the right",
 					"{C:purple}is {C:attention}Debuffed",
-					"{C:purple}for the rest of the blind",
 				},
 			},
 			["blocker_side"] = {
@@ -924,7 +928,7 @@ return {
 				["label"] = "Payout",
 				["name"] = "{C:attention}Payout{}",
 				["text"] = {
-					"Earn {C:money}$#1#{C:attention} at",
+					"{C:attention}Earn {C:money}$#1#{C:attention} at",
 					"{C:attention}end of round",
 				},
 			},
